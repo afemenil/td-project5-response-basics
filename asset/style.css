@@ -1,5 +1,7 @@
 body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0%;
+    margin: 0%;
 }
 
 .section1 {
@@ -155,6 +157,8 @@ body {
 
 .text3{ display: flex;
     justify-content:space-between;
+    margin-left: 10pc;
+    color: aliceblue;
 }
 
 .image4{
@@ -174,7 +178,7 @@ body {
     }
 
   
-
+/* 
     @media screen and (min-width: 768px) {
         .line{
             display: flex;
@@ -183,9 +187,9 @@ body {
     
 
         }
-    }
+    } */
     @media screen and (max-width: 412px) {
-        .line{
+        body{
             display: flex;
             justify-content: space-between;
             flex-wrap: wrap;
