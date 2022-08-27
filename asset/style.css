@@ -14,7 +14,7 @@ body {
 
 .section1 .txt1{
     font-size:xx-large; 
-    padding-right: 800pt;
+    padding-right: 500pt;
     font-weight: 700;
 }
 
@@ -45,19 +45,26 @@ body {
 .section2{
     font-size:xx-large; 
     display: flex; 
+    justify-content: space-between;
     padding-top: 10pc; 
     padding-left: 30px; 
     padding-bottom: 10pc;
 }
 
 .section2 .text1{
-    padding-left: 15pc; 
+    /* padding-left: 15pc;  */
     width: 50pc;
+    padding-left: 40px;
 }
 
 .section2 .design{
     color: #4D9AAD; 
     font-size:xx-large;
+}
+
+.image1{
+    margin-right: -120px;
+
 }
 
 .image1{
@@ -122,7 +129,7 @@ body {
 }
 
 .image3{
-    margin-left: 100pc;
+    margin-left: 80pc;
 }
 
 .text3 .new{
@@ -145,7 +152,8 @@ body {
 }
 
 #button3{
-    margin-right: 5pc;
+    margin-left: 25px;
+    margin-right: 90px;
     height:50px;
     border-radius: 8px;
     background-color: #157293;
@@ -160,34 +168,65 @@ body {
     margin-left: 10pc;
     color: aliceblue;
 }
+.text3 h1{
+    margin-left: -80px;
+    font-size: 25px;
+
+}
 
 .image4{
-    margin-left: 20pc;
+    margin-left: 10pc;
 }
 .section5{
     background-color: #157293;
-    padding-top: 10pc;
-    padding-bottom: 10pc;
     text-align: center;
     color: aliceblue;
+    height: 250px;
+    padding-top: 20px;
 }
 .pic img{
     width:20px;
     height: 20px;
-    margin-top: 30px;
+    margin-top: 1px;
     }
 
   
-/* 
-    @media screen and (min-width: 768px) {
-        .line{
-            display: flex;
+
+    @media screen and (max-width: 768px) {
+        .section2{
+            font-size:xx-large; 
+            display: flex; 
             justify-content: space-between;
-            flex-wrap: wrap;
-    
+            padding-top: 10pc; 
+            padding-left: 30px; 
+            padding-bottom: 10pc;
+        }
+        .image1 { 
+            margin-right: -30px;
+            size: 50px;
 
         }
-    } */
+        .section2 .text1{
+            font-size: 20px;
+
+        }
+        .section3{
+            width: 95%;
+            height:30%;
+         }
+
+         .text3{
+            
+         }
+         .section5 {
+            height: 250px;
+            padding-top: 20px;
+        }
+         
+        
+
+    }
+    
     @media screen and (max-width: 412px) {
         body{
             display: flex;
